@@ -1,5 +1,6 @@
 This computer simulation is meant to present the concepts of Le Chatelier’s Principle. 
 
+![Screenshot](screenshot.png)
 
 The box on the left defines the area we are interested in whereby all the involved molecules will be contained. They are in constant, random motion and undergo elastic collision upon hitting another object (borders or other molecules). It is to be noted that only molecules we are interested in are being shown but in reality, there exists other molecules in the area.
 
@@ -14,3 +15,4 @@ The volume can be varied which would change the pressure of the container. This 
 Catalyst can be turned on and off. Presence of catalyst does not affect the equilibrium position of the reaction but having a catalyst will ensure a higher portion of collisions are effective. Algorithm wise, this is implemented by having a non-catalyst reaction to satisfy an extra condition (Using random number generator and min value) in order to have effective collision.
 
 Reactants and products can be added. This will favour the forward and reverse reaction respectively in order to use up the additional molecules. Simulation wise, this happens naturally since more molecules means more effective collisions. 
+
